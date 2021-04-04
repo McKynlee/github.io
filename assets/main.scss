@@ -37,18 +37,71 @@ a:hover, span.gray:hover { color: #111; text-decoration: underline; }
   fill: #5f939a;
 }
 
-.parallax {
+.parallax-puglia {
   /* The image used */
-  background-image: url("../images/puglia.jpg");
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("../images/puglia.jpg");
 
   /* Set a specific height */
   min-height: 500px;
+  width: 100%;
+
+  font-weight: 500;
+  color: white;
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.parallax-kc {
+  /* The image used */
+  background-image: url("../images/kc.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+  width: 100%;
+
+  color: white;
+  margin-top: 100px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-cycle {
+  /* The image used */
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("../images/cycle.JPG");
+
+  /* Set a specific height */
+  min-height: 500px;
+  width: 100%;
+
+  font-weight: 500;
+  margin-top: 100px;
+  color: white;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  width: 100%;
 }
 /*  *******************************     */
 
