@@ -14,6 +14,14 @@ a:hover, span.gray:hover { color: #111; text-decoration: underline; }
 .social-media-list a:hover { text-decoration: none; }
 .social-media-list a:hover .username { text-decoration: underline; }
 
+// Connect with McK link at top of page
+.connect-with-McK {
+text-align: center;
+font-size: larger;
+color: #5f939a;
+margin: 10px auto 40px;
+}
+
 /* Header and Footer background */
 .site-header.pink, .site-footer.pink{
   background-color: #eac8af;
@@ -30,6 +38,19 @@ a:hover, span.gray:hover { color: #111; text-decoration: underline; }
 /* Footer: Color of non-link text */
 .footer-col-3.teal, .p-name.teal {
   color: #5f939a;
+}
+
+.larger-font {
+font-size: 18px;
+}
+
+.margin-top-btm {
+margin: 40px auto;
+}
+
+.margin-figcaption {
+  margin-top: 10px;
+  margin-bottom: 100px;
 }
 
 /* Footer: Icon color */
@@ -112,6 +133,7 @@ a:hover, span.gray:hover { color: #111; text-decoration: underline; }
 .repo-link {
   background-color: #eac8af;
   text-align: center;
+  padding: 20px;
 }
 
 
