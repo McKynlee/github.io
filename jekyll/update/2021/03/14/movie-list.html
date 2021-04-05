@@ -53,9 +53,9 @@
 <span class="p">}</span></code></pre></figure>
 
 <div class="post-content e-content" itemprop="articleBody">
-  <p>I built the Foreign Language Universal Engagement Tool (F.L.U.E.N.T.)
-    to provide a personalized foreign language learning application to combat 
-    the loneliness and lack of context that comes along with solo language study.
+  <p>This Movie List was built as a visually-pleasing way to keep track of movies, with the ability to add movies to the list and select movies to see further details.
+    Data was managed on the front end with React-Redux and Redux-Sagas, while the magic on the back end happened with Node, Express and PostgreSQL.
+    Material-UI helped beautify and maintain consistency.
   </p>
 
   <div class="repo-link"><a href="https://github.com/McKynlee/weekend-movie-sagas">See the entire Movie List repository here.</a></div>
@@ -94,6 +94,19 @@
   <figure>
     <img src="../../../../../images/movie-list.png" alt="Movie List landing page displaying all available movies." />
     <figcaption>The site landing page displays all available movies, including movie poster and title.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="../../../../../images/movie-item.png" alt="An individual movie's details." />
+    <figcaption>When a movie is clicked on, the user is routed to a view of that individual movie and its details.  
+      The postgreSQL query aggregates all corresponding genres linked with each individual movie.</figcaption>
+  </figure>
+
+  <figure>
+    <img src="../../../../../images/add-movie.png" alt="Ability to add a movie to the list." />
+    <figcaption>Users may add a movie to the list.  When they click "Save" they will be routed back to the overall Movie List page, on which they will see the movie they added displayed!
+      You better believe I overcame some Saga race conditions to make this happen!  That was a lesson for a lifetime.
+    </figcaption>
   </figure>
 
   </div><a class="u-url" href="/jekyll/update/2021/04/03/dev.html" hidden></a>
