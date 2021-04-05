@@ -19,7 +19,13 @@ a:hover, span.gray:hover { color: #111; text-decoration: underline; }
 text-align: center;
 font-size: larger;
 color: #5f939a;
-margin: 10px auto 40px;
+margin: 40px auto;
+}
+
+.connect-with-McK.pink {
+  background-color: #eac8af;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 /* Footer: Width of Columns */
@@ -35,8 +41,28 @@ margin: 10px auto 40px;
   color: #5f939a;
 }
 
+.img-project {
+  height: 275px;
+  margin: 20px auto;
+}
+
 .larger-font {
 font-size: 18px;
+}
+
+.link-pink-bg {
+background-color: #eac8af;
+padding: 5px;
+border-radius: 5px;
+margin: 15px 0;
+}
+
+.margin-about {
+margin-top: 50px;
+}
+
+.margin-about-skills {
+margin-top: 100px;
 }
 
 .margin-top-btm {
@@ -48,58 +74,17 @@ margin: 40px auto;
   margin-bottom: 100px;
 }
 
+.margin-parallax {
+margin-top: 40px;
+margin-bottom: 40px;
+}
+
 .margin-post {
   margin-top: 50px;
 }
 
-/* Header and Footer background */
-.site-header.pink, .site-footer.pink{
-  background-color: #eac8af;
-}
-
-/* Footer: Icon color */
-.svg-icon.teal {
-  fill: #5f939a;
-}
-
-.parallax-puglia {
-  /* The image used */
-  background-image: 
-  linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ), url("../images/puglia.jpg");
-
-  /* Set a specific height */
-  min-height: 500px;
-  width: 100%;
-
-  font-weight: 500;
-  color: white;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.parallax-kc {
-  /* The image used */
-  background-image: url("../images/kc.jpg");
-
-  /* Set a specific height */
-  min-height: 500px;
-  width: 100%;
-
-  color: white;
-  margin-top: 100px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.opacity-word-overlay {
+  // background: rgba(0, 0, 0, 0.5);
 }
 
 .parallax-cycle {
@@ -123,11 +108,58 @@ margin: 40px auto;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  padding: 30px;
+  margin: 150px 0;
 }
 
-.img-project {
-  height: 275px;
-  margin: 20px auto;
+.parallax-kc {
+  /* The image used */
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("../images/kc.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+  width: 100%;
+
+  color: white;
+  margin-top: 100px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 30px;
+  margin: 200px 0;
+}
+
+.parallax-puglia {
+  /* The image used */
+  background-image: 
+  linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("../images/puglia.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+  width: 100%;
+
+  font-weight: 500;
+  color: white;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 30px;
+  margin: 50px 0;
 }
 
 .repo-link {
@@ -136,4 +168,12 @@ margin: 40px auto;
   padding: 20px;
 }
 
+/* Header and Footer background */
+.site-header.pink, .site-footer.pink{
+  background-color: #eac8af;
+}
 
+/* Footer: Icon color */
+.svg-icon.teal {
+  fill: #5f939a;
+}
