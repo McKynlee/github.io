@@ -28,6 +28,11 @@ margin: 40px auto;
   border-radius: 5px;
 }
 
+.contrive-preview {
+  display: flex;
+  justify-content: center;
+}
+
 /* Footer: Width of Columns */
 .footer-col-1.space { width: -webkit-calc(35% - (30px / 2)); width: calc(30% - (30px / 2)); }
 
